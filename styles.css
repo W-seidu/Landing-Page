@@ -2,21 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --text-color: #F9FAF8;
+    --text-color-one: #F9FAF8;
     --button-color: #3882F6;
-
 }
 
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* For Section one */
+
 .section-one {
     display: flex;
     flex-direction: column;
     gap: 30px;
     background-color: #1F2937;
-    height: 70vh;
+    min-height: 70vh;
     color: white;
 }
 
@@ -86,3 +87,40 @@ body {
 .img-placeholder p {
     color: white;
 }
+
+/* For Section two */
+
+.section-two {
+    min-height: 60vh;
+    color: black;
+}
+
+.section-two h2 {
+    text-align: center;
+    margin-top: 20px;;
+}
+
+.img-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.img-card {
+    height: 180px;
+    width: 170px;
+}
+
+.img-card .img-frame {
+    border: 2px solid var(--button-color);
+    height: 160px;
+    width: 170px;
+    border-radius: 10px;
+}
+
+.img-card p {
+    text-align: center;
+}
+
+/* For Section three */
