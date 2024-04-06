@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --text-color: #F9FAF8;
+    --button-color: #3882F6;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #1F2937;
+    height: 70vh;
+    color: white;
+}
+
+.navigation, .hero-section {
+    margin: 0 80px 80px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+    flex: 1 1 70%;
+}
+
+.nav-links {
+    display: flex;
+    flex: 1 1 30%;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.hero-section {
+    display: flex;
+    gap: 10%;
+}
+
+.hero-items {
+    flex: 1 1 45%;
+}
+
+.hero-items h1 {
+    font-size: 48px;
+    color: var(--primary-color); 
+    font-weight: bolder;
+}
+
+.hero-items p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #E5E7EB;
+}
+
+
+.hero-items button {
+    background-color: var(--button-color);
+    padding: 10px 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 10px;
+    color: var(--text-color);
+}
+
+.img-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    opacity: 0.5;
+    flex: 1 1 45%;
+}
+
+.img-placeholder p {
+    color: white;
+}
