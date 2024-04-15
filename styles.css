@@ -124,3 +124,84 @@ body {
 }
 
 /* For Section three */
+.section-three {
+    min-height: 50vh;
+    background-color: #E5E7EB;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-quote {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.main-quote, .quote-author {
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+
+/* For Section three */
+.section-four {
+    min-height: 40vh;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    background-color: #3882f6;   
+    display: flex;
+    width: 70vw;
+    height: 100px;
+    align-items: center;
+    border-radius: 8px;
+    /* gap: 15px; */
+}
+
+.cta-container > * {
+    color: white;
+}
+
+.cta-texts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.cta-texts .bold {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cta-texts .small {
+    font-size: 12px;
+}
+
+.cta-button {
+    border: 2px solid white;
+    height: fit-content;
+    width: 90px;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+
+
